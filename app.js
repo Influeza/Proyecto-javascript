@@ -20,21 +20,21 @@ const baseDeDatos = [
     },
     {
         id: 4,
-        nombre: 'SONYA',
+        nombre: 'SONY',
         precio: 30000,
         imagen: 'assets/tele-4.png'
     },
     {
         id: 5,
-        nombre: 'Hitachi',
-        precio: 46000,
-        imagen: 'assets/tele-3.png'
+        nombre: 'LG',
+        precio: 49000,
+        imagen: 'assets/tele-5.jpg'
     },
     {
         id: 6,
-        nombre: 'SONYA',
-        precio: 30000,
-        imagen: 'assets/tele-4.png'
+        nombre: 'HUAWEI',
+        precio: 37000,
+        imagen: 'assets/tele-6.jpg'
     }
 
 ];
@@ -155,7 +155,7 @@ function calcularTotal() {
 
 }
 
-
+// mi libreria
 function vaciarCarrito() {
 
     swal({
@@ -185,49 +185,16 @@ function vaciarCarrito() {
 
 function comprarCarrito() {
 
-    
-    
-    // localStorage.setItem("id-producto", carrito);
 
     swal("Listo!", "Tu compra fue realizada con exito!", "success");
 }
 
-
-// let baseENJ = JSON.stringify(baseDeDatos);
-
-
-// localStorage.setItem("baseDeDatos", baseENJ)
 
 
 DOMbotonComprar.addEventListener('click', comprarCarrito);
 
 DOMbotonVaciar.addEventListener('click', vaciarCarrito);
 
-// fetch
-
-// const lista = document.querySelector("#lista")
-
-
-//   fetch ("/data.json")
-  
-//   .then ((res)=> res.json())
-//   .then ((data)=>{
-
-//     data.forEach((producto) => {
-
-//         const li = document.createElement("li")
-
-//         li.innerHTML=`
-        
-//         <h4>${producto.id}</h4>
-//         <p>${producto.nombre}</p>
-//         <p>${producto.precio}</p>
-        
-//         `
-
-//         lista.append(li)
-//     })
-//   } )
 
 
 renderizarProductos();
