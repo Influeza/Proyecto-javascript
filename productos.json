@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "nombre": "SAMSUNG 8K",
+        "fecha": "23-11-2025"
+    },
+    {
+        "id":2,
+        "nombre": "SONY SMARTV 8K",
+        "fecha": "15-9-2027"
+
+    },
+    {
+        "id":3,
+        "nombre": "Playstation 6",
+        "fecha": "16-9-2028"
+ 
+    },
+    {
+        "id":4,
+        "nombre": "Xbox Series xs",
+        "fecha": "25-9-2028"
+
+    }
+
+]
